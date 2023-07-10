@@ -19,8 +19,8 @@ Projeto feito para ilustrar minhas capacidades de estilização no front-end.
 
 ##
 
-Imagem da pagina :
-
+Imagem da pagina : <br>
+<img src="/demo.png" width="500px">
 
 ## 
 
