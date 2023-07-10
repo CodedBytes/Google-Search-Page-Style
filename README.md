@@ -6,7 +6,7 @@
 
 Projeto se trata do front-end de um site de pesquisas baseado no google, com  algumas modificações feitas por mim.
 O estilo é resposivo, tanto nos popups, quanto na pagina como um todo, para celular e desktops <br>
-Projeto feito para ilustrar minhas capacidades de estilização no front-end.
+Projeto feito para ilustrar minhas capacidades de estilização no front-end como um desenvolvedor Júnior ! <br>
 Possui :
 - Modo escuro.
 - animações usando css3 puro
