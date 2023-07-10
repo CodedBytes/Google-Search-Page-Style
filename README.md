@@ -4,8 +4,13 @@
 
 ##
 
-- Projeto se trata do front-end de um site de pesquisas baseado no google, com  algumas modificações feitas por mim.
-- Está totalmente responsivo tanto para mobile quanto para desktop.
+Projeto se trata do front-end de um site de pesquisas baseado no google, com  algumas modificações feitas por mim.
+O estilo é resposivo, tanto nos popups, quanto na pagina como um todo, para celular e desktops <br>
+Projeto feito para ilustrar minhas capacidades de estilização no front-end.
+Possui :
+- Modo escuro.
+- animações usando css3 puro
+- Popups usando Javascript puro.
 
 As linguagens usadas foram : <br>
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -13,11 +18,6 @@ As linguagens usadas foram : <br>
   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
   ##
-
-O estilo é resposivo, tanto nos popups, quanto na pagina como um todo. <br>
-Projeto feito para ilustrar minhas capacidades de estilização no front-end.
-
-##
 
 Imagem da pagina : <br>
 <img src="/demo.png" width="500px">
