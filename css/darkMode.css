@@ -1,0 +1,125 @@
+
+/* DARK THEME */
+body.dark {background-color: #1d1f25;} /* #9b59b6 */
+
+body.dark section.page .logo
+{
+    position: absolute;
+    top: 60px;
+    width: 272px;
+    height: 92px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../img/googlelogo_darkmode.png");
+}
+
+body.dark section.page .field input[type="text"]
+{
+    border: 1px solid rgb(68, 68, 68);
+    background-color: #1d1f25;
+}
+
+body.dark section.page .field i,
+body.dark section.header .dropdown-content i
+{
+    color: #fff;
+}
+
+body.dark section.header a
+{
+    color: rgb(255, 255, 255);
+}
+
+body.dark section.header .btnGrid
+{
+    background-color: #282b33;
+}
+
+body.dark section.page .butt input[type="submit"]
+{
+    border: 1px solid #282b33;
+    background-color: #282b33;
+    color: #fff;
+}
+
+body.dark section.page .butt input[type="submit"]:hover
+{
+    border: 1px solid rgb(139, 139, 139);
+    box-shadow: 3px 3px 3px #0f1013;
+    transition: 0.1s ease-in;
+}
+
+body.dark section.page .field input[type="text"]
+{
+    color: #fff;
+}
+
+
+body.dark section.page .field input[type="text"]:hover,
+body.dark section.page .field input[type="text"]:focus
+{
+    border: 1px solid #24272e;
+    background-color: #24272e;
+    box-shadow: 3px 3px 3px #0f1013;
+}
+
+body.dark section.footer
+{
+    background-color: #0f1013;
+}
+
+body.dark section.footer hr.division
+{
+    border: 1px solid #1d1f25;
+}
+
+body.dark section.footer .dropdown-content-up
+{
+    box-shadow: 5px 5px 4px #1a1b20;
+    border: 1px solid #ddd;
+    background-color: #1d1f25;
+}
+
+body.dark section.footer .dropdown-content-up a.dropATag
+{
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s ease-in;
+}
+
+body.dark section.footer .dropdown-content-up a.dropATag:hover
+{
+    background-color: #5f5e5e;
+}
+
+body.dark section.footer .dropdown-content-up hr.division
+{
+    border: 1px solid #353841;
+}
+
+
+body.dark section.footer .bboxB a:hover
+{
+    padding-left: 10px;
+}
+
+body.dark section.header .dropdown-content
+{
+ background-color: #1d1f25;
+ box-shadow: 5px 5px 4px #0f1013;
+ border: 1px solid #ddd;
+}
+
+body.dark section.header .dropdown-content a.content
+{
+ background-color: #32353f;
+ box-shadow: 3px 3px 3px #0f1013;
+}
+
+body.dark section.header .dropdown-content a.content:hover
+{
+    background-color: #5f5e5e;
+}

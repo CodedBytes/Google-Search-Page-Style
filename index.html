@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="shortcut icon" href="./img/google_fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/darkMode.css">
+    <link rel="stylesheet" href="./css/dropdown.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header"><!-- Header -->
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="javascript:void(0);" onclick="downMenu();" id="dropdbtn" class="btnGrid"><i class="fa-solid fa-grip" id="dropdbtn" ></i></a>
+        
+        <div id="Dropdown" class="dropdown-content">
+            <a href="#Profile" class="content">
+                <img src="./img/User.png" alt="" width="50px"><br>
+                <span>Usuario</span>
+            </a>
+            <a href="#Maps" class="content">
+                <img src="./img/google_icons/icons8-google-maps-48.png" alt="" width="50px"><br>
+                <span>Maps</span>
+            </a>
+            <a href="#Youtube" class="content">
+                <img src="./img/google_icons/icons8-gmail-48.png" alt="" width="50px"><br>
+                <span>Gmail</span>
+            </a>
+            <a href="#Youtube" class="content">
+                <img src="./img/google_icons/icons8-youtube-48.png" alt="" width="50px"><br>
+                <span>Youtube</span>
+            </a>
+            <a href="#More.." class="content">
+                <img src="./img/ellipsis-solid.svg" alt="" width="50px"><br>
+                <span>Etc...</span>
+            </a>
+        </div>
+
+        <buttom onclick="window.location.href='./'" class="loginbtn"><span>Fazer Login</span></buttom>
+    </section>
+
+    <section class="page"><!-- Page -->
+        <div class="logo"></div>
+
+        <form action="">
+            <div class="field">
+                <i class="fa fa-search fa-xl"></i>
+                <input type="text" name="search" required />
+            </div>
+            
+            <div class="butt">
+                <input type="submit" value="Pesquisar Google" class="search">
+                <input type="submit" value="Estou com sorte" class="lucky">
+            </div>
+        </form>
+    </section>
+
+    
+
+    <section class="footer"> <!-- Footer -->
+        <div class="topbox">
+            <span>Brasil</span>
+        </div>
+        <hr class="division">
+        <div class="bottombox">
+            <div class="bboxA">
+                <a href="#">Sobre</a>
+                <a href="#">Publicidade</a>
+                <a href="#">Negócios</a>
+                <a href="#">Como funciona a Pesquisa</a>
+            </div>
+
+            <div class="bboxB">
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+
+                <div id="myDropdown" class="dropdown-content-up">
+                    <a href="https://github.com/CodedBytes" class="dropATag"><i class="fa-brands fa-square-github"></i> Meu Github</a>
+                    <hr class="division">
+
+                    <a href="#" id="notClickable" class="dropATag" >
+                      <div class="container">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="checkbox-label" >
+                          <i class="fas fa-moon"></i> <i class="fas fa-sun"></i>
+                          <span class="ball"></span>
+                        </label>
+                        <span id="notClickable">Tema Escuro</span>
+                      </div>
+                    </a>
+                </div>
+
+                <a href="javascript:void(0);" onclick="upMenu();" id="dropbtn">Configurações</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drop menus JS -->
+    <script src="./js/dropMenus.js"></script>
+    <script src="./js/darkThemeSwitcher.js"></script>
+</body>
+</html>

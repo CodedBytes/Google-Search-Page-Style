@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    transition: background 0.2s linear;
+  }
+
+
+section.header
+{
+ width: 100%;
+ display: flex;
+ justify-content: right;
+ padding: 20px 20px;
+}
+
+section.header a
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+section.header a:hover,
+section.footer .bboxA a:hover,
+section.footer .bboxB a:hover
+{
+    text-decoration: underline;
+}
+
+section.footer .bboxB a.dropATag:hover
+{
+    text-decoration: none;
+}
+
+section.header .loginbtn
+{
+    position: relative;
+    top: -10px;
+    width: 130px;
+    height: 40px;
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgb(65, 65, 253);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 9px 27px;
+    border-radius: 7px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+section.header .loginbtn:hover
+{
+    background-color: rgb(101, 101, 252);
+    transition: 0.1s ease-in;
+}
+
+section.header .btnGrid
+{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(228, 227, 227);
+    position: relative;
+    margin-left: 15px;
+    padding: 5px 8px;
+    top: -5px;
+    border-radius: 15px;
+}
+
+section.header .content
+{
+    border-radius: 20px;
+    width: 90px;
+    height: 110px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgb(192, 192, 192);
+    text-align: center;
+    text-decoration: none;
+}
+section.header .content span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+}
+
+section.header .content:hover
+{
+    background-color: rgb(215, 234, 240);
+    text-decoration: none;
+}
+
+
+section.page .logo
+{
+    position: absolute;
+    top: 60px;
+    width: 272px;
+    height: 92px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("../img/googlelogo.png");
+}
+
+section.page .field
+{
+    position: absolute;
+    top: 180px;
+    left: 15%;
+    right: 15%;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section.page .field input[type="text"]
+{
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 25px;
+    height: 45px;
+    width: 100%;
+    padding-left: 60px;
+    transition: 0.1s ease-in;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+section.page .field input[type="text"]:hover
+{
+    background-color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 2px rgb(214, 214, 214);
+    transition: 0.1s ease-in;
+}
+
+section.page .field input[type="text"]:focus
+{
+    outline: none;
+    background-color: rgb(224, 224, 224);
+    border-color: rgb(224, 224, 224);
+    box-shadow: 2px 2px 3px rgb(124, 124, 124);
+
+}
+
+section.page .field i
+{
+    position: absolute;
+    left: 13px;
+    top: 23px;
+}
+
+section.page .butt
+{
+    position: absolute;
+    top: 255px;
+    left: 26%;
+    right: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section.page .butt input[type="submit"]
+{
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 8px 15px 8px 15px;
+    margin-right: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    transition: 0.1s ease-in;
+}
+
+section.page .butt input[type="submit"]:hover
+{
+    
+    border: 1px solid rgb(139, 139, 139);
+    transition: 0.1s ease-in;
+}
+
+section.footer
+{
+    background-color: rgb(241, 242, 243);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section.footer hr.division
+{
+    border: 0.1em solid rgb(224, 224, 224);
+}
+
+section.footer .topbox
+{
+    padding: 15px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: rgb(109, 109, 109);
+}
+
+section.footer .bottombox
+{
+    padding: 13px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.footer .bboxA a,
+section.footer .bboxB a
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.checkbox
+{
+    opacity: 0;
+    position: absolute;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.checkbox-label
+{
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball
+{
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball 
+{
+    transform: translateX(24px);
+}
+  
+
+
+
+/* MOBILE */
+@media screen and (max-width: 670px) 
+{
+ 
+    section.page .field
+    {
+        position: absolute;
+        top: 180px;
+        left: 8%;
+        right: 15%;
+        margin: auto;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+@media screen and (max-width: 756px) {
+
+    
+    section.footer .bottombox
+    {
+        padding: 13px 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.footer .bboxB
+    {
+        margin-top: 10px;
+    }
+
+    section.footer a.dropATag
+    {
+        color: rgb(5, 5, 5);
+        font-weight: bolder;
+    }
+
+    section.header .loginbtn
+    {
+        font-size: 14px;
+        padding: 12px 27px;
+    }
+}
