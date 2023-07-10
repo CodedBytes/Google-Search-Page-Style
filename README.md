@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=24&pause=1000&width=435&lines=Pagina+inicial+de+pesquisa+do+Google" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=900&size=24&pause=1000&width=505&lines=Pagina+inicial+de+pesquisa+do+Google" alt="Typing SVG" /></a>
 </div>
 
 ##
@@ -16,6 +16,11 @@ As linguagens usadas foram : <br>
 
 O estilo é resposivo, tanto nos popups, quanto na pagina como um todo. <br>
 Projeto feito para ilustrar minhas capacidades de estilização no front-end.
+
+##
+
+Imagem da pagina :
+
 
 ## 
 
